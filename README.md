@@ -1,69 +1,13 @@
-![image alt](https://github.com/x402SwarmsOrganisation/x402swarms-official-release/blob/0033987fe29ee6ace241bae879a2bbc2703a1039/X402Swarmz%20logo%20final.png)
-  <em>x402Swarms — a fork of Swarms focused on x402 payment integration and demos.</em>
-</p>
+## SOLYNIA
 
-<!-- Fork Notice -->
-## Fork Notice: x402Swarms
-
-This repository is a fork of the original Swarms project. We have adapted and focused this fork on x402 payment integrations and demos (x402 payment middleware, facilitator tooling, and example clients). This is NOT the original Swarms project — references and direct links to the original project's infrastructure and accounts have been removed or replaced so users understand this repository is a derivative work maintained by the x402Swarms team.
-
-- Primary fork account / contact: https://x.com/x402swarms
-- This fork includes local mock facilitator tools, example scripts, and helper utilities for testing x402 flows safely.
-
----
-
-<p align="center">
-  <!-- Project Badges: simplified for the fork -->
-  <picture>
-    <img alt="x402Swarms" src="https://img.shields.io/badge/x402Swarms-Fork-blue?style=for-the-badge" />
-  </picture>
-</p>
-
-<p align="center">
-  <!-- Social Media: only show the fork's X account -->
-  <a href="https://x.com/x402swarms">
-    <picture>
-      <source srcset="https://img.shields.io/badge/X.com-Follow-1DA1F2?style=for-the-badge&logo=x&logoColor=white" media="(prefers-color-scheme: dark)">
-      <img src="https://img.shields.io/badge/X.com-Follow-1DA1F2?style=for-the-badge&logo=x&logoColor=white" alt="X.com">
-    </picture>
-  </a>
-</p>
-
-<p align="center">
-  <!-- Main Navigation Links (replaced with fork-specific notes) -->
-  <a href="#">🏠 x402Swarms Home (this fork)</a>
-  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="examples/x402_fastapi_payment_demo.py">📙 x402 Quickstart (Examples)</a>
-  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="#">🛒 x402 Demos</a>
-</p>
-
-<p align="center">
-  <!-- Share Buttons -->
-  <a href="https://twitter.com/intent/tweet?text=Check%20out%20this%20amazing%20AI%20project:%20&url=https%3A%2F%2Fgithub.com%2Fkyegomez%2Fswarms">
-    <picture>
-      <source srcset="https://img.shields.io/badge/Share%20on%20Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" media="(prefers-color-scheme: dark)">
-      <img src="https://img.shields.io/badge/Share%20on%20Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Share on Twitter">
-    </picture>
-  </a>
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fgithub.com%2Fkyegomez%2Fswarms&title=&summary=&source=">
-    <picture>
-      <source srcset="https://img.shields.io/badge/Share%20on%20LinkedIn-blue?style=for-the-badge" media="(prefers-color-scheme: dark)">
-      <img src="https://img.shields.io/badge/Share%20on%20LinkedIn-blue?style=for-the-badge" alt="Share on LinkedIn">
-    </picture>
-  </a>
-</p>
-
-## ✨ Features
-
-x402Swarms delivers a focused set of x402 payment integration demos and tooling built on top of the original Swarms codebase. For full API reference and examples included in this fork, see the `examples/` directory and the `scripts/` utilities.
+x402Solynia delivers a focused set of x402 payment integration. For full API reference and examples, see the `examples/` directory and the `scripts/` utilities.
 
 <!-- Replace external links to the original project with local references / placeholders -->
 
 | Category | Features | Benefits |
 |----------|----------|-----------|
 | 🏢 **Enterprise Architecture** | • Production-Ready Infrastructure<br>• High Availability Systems<br>• Modular Microservices Design<br>• Comprehensive Observability<br>• Backwards Compatibility | • 99.9%+ Uptime Guarantee<br>• Reduced Operational Overhead<br>• Seamless Legacy Integration<br>• Enhanced System Monitoring<br>• Risk-Free Migration Path |
-| 🤖 **Multi-Agent Orchestration** | • Hierarchical Agent Swarms<br>• Parallel Processing Pipelines<br>• Sequential Workflow Orchestration<br>• Graph-Based Agent Networks<br>• Dynamic Agent Composition<br>• Agent Registry Management | • Complex Business Process Automation<br>• Scalable Task Distribution<br>• Flexible Workflow Adaptation<br>• Optimized Resource Utilization<br>• Centralized Agent Governance<br>• Enterprise-Grade Agent Lifecycle Management |
+| 🤖 **Multi-Agent Orchestration** | • Hierarchical Agent solynias<br>• Parallel Processing Pipelines<br>• Sequential Workflow Orchestration<br>• Graph-Based Agent Networks<br>• Dynamic Agent Composition<br>• Agent Registry Management | • Complex Business Process Automation<br>• Scalable Task Distribution<br>• Flexible Workflow Adaptation<br>• Optimized Resource Utilization<br>• Centralized Agent Governance<br>• Enterprise-Grade Agent Lifecycle Management |
 | 🔄 **Enterprise Integration** | • Multi-Model Provider Support<br>• Custom Agent Development Framework<br>• Extensive Enterprise Tool Library<br>• Multiple Memory Systems<br>• Backwards Compatibility with LangChain, AutoGen, CrewAI<br>• Standardized API Interfaces | • Vendor-Agnostic Architecture<br>• Custom Solution Development<br>• Extended Functionality Integration<br>• Enhanced Knowledge Management<br>• Seamless Framework Migration<br>• Reduced Integration Complexity |
 | 📈 **Enterprise Scalability** | • Concurrent Multi-Agent Processing<br>• Intelligent Resource Management<br>• Load Balancing & Auto-Scaling<br>• Horizontal Scaling Capabilities<br>• Performance Optimization<br>• Capacity Planning Tools | • High-Throughput Processing<br>• Cost-Effective Resource Utilization<br>• Elastic Scaling Based on Demand<br>• Linear Performance Scaling<br>• Optimized Response Times<br>• Predictable Growth Planning |
 | 🛠️ **Developer Experience** | • Intuitive Enterprise API<br>• Comprehensive Documentation<br>• Active Enterprise Community<br>• CLI & SDK Tools<br>• IDE Integration Support<br>• Code Generation Templates | • Accelerated Development Cycles<br>• Reduced Learning Curve<br>• Expert Community Support<br>• Rapid Deployment Capabilities<br>• Enhanced Developer Productivity<br>• Standardized Development Patterns |
@@ -89,10 +33,10 @@ SOLANA_PRIVATE_KEY=""
 
 ### 🤖 Your First Agent
 
-An **Agent** is the fundamental building block of a swarm—an autonomous entity powered by an LLM + Tools + Memory. [Learn more Here](https://docs.swarms.world/en/latest/swarms/structs/agent/)
+An **Agent** is the fundamental building block of a solynia—an autonomous entity powered by an LLM + Tools + Memory.
 
 ```python
-from swarms import Agent
+from solynias import Agent
 
 # Initialize a new agent
 agent = Agent(
@@ -105,12 +49,12 @@ agent = Agent(
 agent.run("What are the key benefits of using a multi-agent system?")
 ```
 
-### 🤝 Your First Swarm: Multi-Agent Collaboration
+### 🤝 Your First Solynia: Multi-Agent Collaboration
 
-A **Swarm** consists of multiple agents working together. This simple example creates a two-agent workflow for researching and writing a blog post. [Learn More About SequentialWorkflow](https://docs.swarms.world/en/latest/swarms/structs/sequential_workflow/)
+A **solynia** consists of multiple agents working together. This simple example creates a two-agent workflow for researching and writing a blog post.
 
 ```python
-from swarms import Agent, SequentialWorkflow
+from solynias import Agent, SequentialWorkflow
 
 # Agent 1: The Researcher
 researcher = Agent(
@@ -137,18 +81,18 @@ print(final_post)
 
 -----
 
-### 🤖 AutoSwarmBuilder: Autonomous Agent Generation
+### 🤖 AutosolyniaBuilder: Autonomous Agent Generation
 
-The `AutoSwarmBuilder` automatically generates specialized agents and their workflows based on your task description. Simply describe what you need, and it will create a complete multi-agent system with detailed prompts and optimal agent configurations. [Learn more about AutoSwarmBuilder](https://docs.swarms.world/en/latest/swarms/structs/auto_swarm_builder/)
+The `AutosolyniaBuilder` automatically generates specialized agents and their workflows based on your task description. Simply describe what you need, and it will create a complete multi-agent system with detailed prompts and optimal agent configurations.
 
 ```python
-from swarms.structs.auto_swarm_builder import AutoSwarmBuilder
+from solynias.structs.auto_solynia_builder import AutosolyniaBuilder
 import json
 
-# Initialize the AutoSwarmBuilder
-swarm = AutoSwarmBuilder(
-    name="My Swarm",
-    description="A swarm of agents",
+# Initialize the AutosolyniaBuilder
+solynia = AutosolyniaBuilder(
+    name="My solynia",
+    description="A solynia of agents",
     verbose=True,
     max_loops=1,
     return_agents=True,
@@ -156,7 +100,7 @@ swarm = AutoSwarmBuilder(
 )
 
 # Let the builder automatically create agents and workflows
-result = swarm.run(
+result = solynia.run(
     task="Create an accounting team to analyze crypto transactions, "
          "there must be 5 agents in the team with extremely extensive prompts. "
          "Make the prompts extremely detailed and specific and long and comprehensive. "
@@ -167,13 +111,13 @@ result = swarm.run(
 print(json.dumps(result, indent=4))
 ```
 
-The `AutoSwarmBuilder` provides:
+The `AutosolyniaBuilder` provides:
 
 - **Automatic Agent Generation**: Creates specialized agents based on task requirements
 - **Intelligent Prompt Engineering**: Generates comprehensive, detailed prompts for each agent
 - **Optimal Workflow Design**: Determines the best agent interactions and workflow structure
 - **Production-Ready Configurations**: Returns fully configured agents ready for deployment
-- **Flexible Architecture**: Supports various swarm types and agent specializations
+- **Flexible Architecture**: Supports various solynia types and agent specializations
 
 This feature is perfect for rapid prototyping, complex task decomposition, and creating specialized agent teams without manual configuration.
 
@@ -181,20 +125,20 @@ This feature is perfect for rapid prototyping, complex task decomposition, and c
 
 ## 🏗️ Multi-Agent Architectures For Production Deployments
 
-`swarms` provides a variety of powerful, pre-built multi-agent architectures enabling you to orchestrate agents in various ways. Choose the right structure for your specific problem to build efficient and reliable production systems.
+`solynias` provides a variety of powerful, pre-built multi-agent architectures enabling you to orchestrate agents in various ways. Choose the right structure for your specific problem to build efficient and reliable production systems.
 
 | **Architecture** | **Description** | **Best For** |
 |---|---|---|
-| **[SequentialWorkflow](https://docs.swarms.world/en/latest/swarms/structs/sequential_workflow/)** | Agents execute tasks in a linear chain; the output of one agent becomes the input for the next. | Step-by-step processes such as data transformation pipelines and report generation. |
-| **[ConcurrentWorkflow](https://docs.swarms.world/en/latest/swarms/structs/concurrent_workflow/)** | Agents run tasks simultaneously for maximum efficiency. | High-throughput tasks such as batch processing and parallel data analysis. |
-| **[AgentRearrange](https://docs.swarms.world/en/latest/swarms/structs/agent_rearrange/)** | Dynamically maps complex relationships (e.g., `a -> b, c`) between agents. | Flexible and adaptive workflows, task distribution, and dynamic routing. |
-| **[GraphWorkflow](https://docs.swarms.world/en/latest/swarms/structs/graph_workflow/)** | Orchestrates agents as nodes in a Directed Acyclic Graph (DAG). | Complex projects with intricate dependencies, such as software builds. |
-| **[MixtureOfAgents (MoA)](https://docs.swarms.world/en/latest/swarms/structs/moa/)** | Utilizes multiple expert agents in parallel and synthesizes their outputs. | Complex problem-solving and achieving state-of-the-art performance through collaboration. |
-| **[GroupChat](https://docs.swarms.world/en/latest/swarms/structs/group_chat/)** | Agents collaborate and make decisions through a conversational interface. | Real-time collaborative decision-making, negotiations, and brainstorming. |
-| **[ForestSwarm](https://docs.swarms.world/en/latest/swarms/structs/forest_swarm/)** | Dynamically selects the most suitable agent or tree of agents for a given task. | Task routing, optimizing for expertise, and complex decision-making trees. |
-| **[HierarchicalSwarm](https://docs.swarms.world/en/latest/swarms/structs/hiearchical_swarm/)** | Orchestrates agents with a director who creates plans and distributes tasks to specialized worker agents. | Complex project management, team coordination, and hierarchical decision-making with feedback loops. |
-| **[HeavySwarm](https://docs.swarms.world/en/latest/swarms/structs/heavy_swarm/)** | Implements a five-phase workflow with specialized agents (Research, Analysis, Alternatives, Verification) for comprehensive task analysis. | Complex research and analysis tasks, financial analysis, strategic planning, and comprehensive reporting. |
-| **[SwarmRouter](https://docs.swarms.world/en/latest/swarms/structs/swarm_router/)** | A universal orchestrator that provides a single interface to run any type of swarm with dynamic selection. | Simplifying complex workflows, switching between swarm strategies, and unified multi-agent management. |
+| **[SequentialWorkflow](https://docs.solynias.world/en/latest/solynias/structs/sequential_workflow/)** | Agents execute tasks in a linear chain; the output of one agent becomes the input for the next. | Step-by-step processes such as data transformation pipelines and report generation. |
+| **[ConcurrentWorkflow](https://docs.solynias.world/en/latest/solynias/structs/concurrent_workflow/)** | Agents run tasks simultaneously for maximum efficiency. | High-throughput tasks such as batch processing and parallel data analysis. |
+| **[AgentRearrange](https://docs.solynias.world/en/latest/solynias/structs/agent_rearrange/)** | Dynamically maps complex relationships (e.g., `a -> b, c`) between agents. | Flexible and adaptive workflows, task distribution, and dynamic routing. |
+| **[GraphWorkflow](https://docs.solynias.world/en/latest/solynias/structs/graph_workflow/)** | Orchestrates agents as nodes in a Directed Acyclic Graph (DAG). | Complex projects with intricate dependencies, such as software builds. |
+| **[MixtureOfAgents (MoA)](https://docs.solynias.world/en/latest/solynias/structs/moa/)** | Utilizes multiple expert agents in parallel and synthesizes their outputs. | Complex problem-solving and achieving state-of-the-art performance through collaboration. |
+| **[GroupChat](https://docs.solynias.world/en/latest/solynias/structs/group_chat/)** | Agents collaborate and make decisions through a conversational interface. | Real-time collaborative decision-making, negotiations, and brainstorming. |
+| **[Forestsolynia](https://docs.solynias.world/en/latest/solynias/structs/forest_solynia/)** | Dynamically selects the most suitable agent or tree of agents for a given task. | Task routing, optimizing for expertise, and complex decision-making trees. |
+| **[Hierarchicalsolynia](https://docs.solynias.world/en/latest/solynias/structs/hiearchical_solynia/)** | Orchestrates agents with a director who creates plans and distributes tasks to specialized worker agents. | Complex project management, team coordination, and hierarchical decision-making with feedback loops. |
+| **[Heavysolynia](https://docs.solynias.world/en/latest/solynias/structs/heavy_solynia/)** | Implements a five-phase workflow with specialized agents (Research, Analysis, Alternatives, Verification) for comprehensive task analysis. | Complex research and analysis tasks, financial analysis, strategic planning, and comprehensive reporting. |
+| **[solyniaRouter](https://docs.solynias.world/en/latest/solynias/structs/solynia_router/)** | A universal orchestrator that provides a single interface to run any type of solynia with dynamic selection. | Simplifying complex workflows, switching between solynia strategies, and unified multi-agent management. |
 
 -----
 
@@ -203,7 +147,7 @@ This feature is perfect for rapid prototyping, complex task decomposition, and c
 A `SequentialWorkflow` executes tasks in a strict order, forming a pipeline where each agent builds upon the work of the previous one. `SequentialWorkflow` is Ideal for processes that have clear, ordered steps. This ensures that tasks with dependencies are handled correctly.
 
 ```python
-from swarms import Agent, SequentialWorkflow
+from solynias import Agent, SequentialWorkflow
 
 # Agent 1: The Researcher
 researcher = Agent(
@@ -235,7 +179,7 @@ print(final_post)
 A `ConcurrentWorkflow` runs multiple agents simultaneously, allowing for parallel execution of tasks. This architecture drastically reduces execution time for tasks that can be performed in parallel, making it ideal for high-throughput scenarios where agents work on similar tasks concurrently.
 
 ```python
-from swarms import Agent, ConcurrentWorkflow
+from solynias import Agent, ConcurrentWorkflow
 
 # Create agents for different analysis tasks
 market_analyst = Agent(
@@ -277,10 +221,10 @@ print(results)
 
 ### AgentRearrange
 
-Inspired by `einsum`, `AgentRearrange` lets you define complex, non-linear relationships between agents using a simple string-based syntax. [Learn more](https://docs.swarms.world/en/latest/swarms/structs/agent_rearrange/). This architecture is perfect for orchestrating dynamic workflows where agents might work in parallel, in sequence, or in any combination you choose.
+Inspired by `einsum`, `AgentRearrange` lets you define complex, non-linear relationships between agents using a simple string-based syntax. This architecture is perfect for orchestrating dynamic workflows where agents might work in parallel, in sequence, or in any combination you choose.
 
 ```python
-from swarms import Agent, AgentRearrange
+from solynias import Agent, AgentRearrange
 
 # Define agents
 researcher = Agent(agent_name="researcher", model_name="gpt-4o-mini")
@@ -297,7 +241,7 @@ rearrange_system = AgentRearrange(
     flow=flow,
 )
 
-# Run the swarm
+# Run the solynia
 outputs = rearrange_system.run("Analyze the impact of AI on modern cinema.")
 print(outputs)
 ```
@@ -311,7 +255,7 @@ print(outputs)
 **Description:** Essential for building sophisticated pipelines, like in software development or complex project management, where task order and dependencies are critical.
 
 ```python
-from swarms import Agent, GraphWorkflow, Node, Edge, NodeType
+from solynias import Agent, GraphWorkflow, Node, Edge, NodeType
 
 # Define agents and a simple python function as nodes
 code_generator = Agent(agent_name="CodeGenerator", system_prompt="Write Python code for the given task.", model_name="gpt-4o-mini")
@@ -337,15 +281,15 @@ print(results)
 
 ----
 
-### SwarmRouter: The Universal Swarm Orchestrator
+### solyniaRouter: The Universal solynia Orchestrator
 
-The `SwarmRouter` simplifies building complex workflows by providing a single interface to run any type of swarm. Instead of importing and managing different swarm classes, you can dynamically select the one you need just by changing the `swarm_type` parameter. [Read the full documentation](https://docs.swarms.world/en/latest/swarms/structs/swarm_router/)
+The `solyniaRouter` simplifies building complex workflows by providing a single interface to run any type of solynia. Instead of importing and managing different solynia classes, you can dynamically select the one you need just by changing the `solynia_type` parameter.
 
-This makes your code cleaner and more flexible, allowing you to switch between different multi-agent strategies with ease. Here's a complete example that shows how to define agents and then use `SwarmRouter` to execute the same task using different collaborative strategies.
+This makes your code cleaner and more flexible, allowing you to switch between different multi-agent strategies with ease. Here's a complete example that shows how to define agents and then use `solyniaRouter` to execute the same task using different collaborative strategies.
 
 ```python
-from swarms import Agent
-from swarms.structs.swarm_router import SwarmRouter, SwarmType
+from solynias import Agent
+from solynias.structs.solynia_router import solyniaRouter, solyniaType
 
 # Define a few generic agents
 writer = Agent(agent_name="Writer", system_prompt="You are a creative writer.", model_name="gpt-4o-mini")
@@ -359,14 +303,14 @@ task = "Write a short story about a robot who discovers music."
 # --- Example 1: SequentialWorkflow ---
 # Agents run one after another in a chain: Writer -> Editor -> Reviewer.
 print("Running a Sequential Workflow...")
-sequential_router = SwarmRouter(swarm_type=SwarmType.SequentialWorkflow, agents=agents)
+sequential_router = solyniaRouter(solynia_type=solyniaType.SequentialWorkflow, agents=agents)
 sequential_output = sequential_router.run(task)
 print(f"Final Sequential Output:\n{sequential_output}\n")
 
 # --- Example 2: ConcurrentWorkflow ---
 # All agents receive the same initial task and run at the same time.
 print("Running a Concurrent Workflow...")
-concurrent_router = SwarmRouter(swarm_type=SwarmType.ConcurrentWorkflow, agents=agents)
+concurrent_router = solyniaRouter(solynia_type=solyniaType.ConcurrentWorkflow, agents=agents)
 concurrent_outputs = concurrent_router.run(task)
 # This returns a dictionary of each agent's output
 for agent_name, output in concurrent_outputs.items():
@@ -380,8 +324,8 @@ aggregator = Agent(
     system_prompt="Combine the story, edits, and review into a final document.",
     model_name="gpt-4o-mini"
 )
-moa_router = SwarmRouter(
-    swarm_type=SwarmType.MixtureOfAgents,
+moa_router = solyniaRouter(
+    solynia_type=solyniaType.MixtureOfAgents,
     agents=agents,
     aggregator_agent=aggregator, # MoA requires an aggregator
 )
@@ -390,16 +334,16 @@ print(f"Final Aggregated Output:\n{aggregated_output}\n")
 ```
 
 
-The `SwarmRouter` is a powerful tool for simplifying multi-agent orchestration. It provides a consistent and flexible way to deploy different collaborative strategies, allowing you to build more sophisticated applications with less code.
+The `solyniaRouter` is a powerful tool for simplifying multi-agent orchestration. It provides a consistent and flexible way to deploy different collaborative strategies, allowing you to build more sophisticated applications with less code.
 
 -------
 
 ### MixtureOfAgents (MoA)
 
-The `MixtureOfAgents` architecture processes tasks by feeding them to multiple "expert" agents in parallel. Their diverse outputs are then synthesized by an aggregator agent to produce a final, high-quality result. [Learn more here](https://docs.swarms.world/en/latest/swarms/examples/moa_example/)
+The `MixtureOfAgents` architecture processes tasks by feeding them to multiple "expert" agents in parallel. Their diverse outputs are then synthesized by an aggregator agent to produce a final, high-quality result.
 
 ```python
-from swarms import Agent, MixtureOfAgents
+from solynias import Agent, MixtureOfAgents
 
 # Define expert agents
 financial_analyst = Agent(agent_name="FinancialAnalyst", system_prompt="Analyze financial data.", model_name="gpt-4o-mini")
@@ -413,14 +357,14 @@ aggregator = Agent(
     model_name="gpt-4o-mini"
 )
 
-# Create the MoA swarm
-moa_swarm = MixtureOfAgents(
+# Create the MoA solynia
+moa_solynia = MixtureOfAgents(
     agents=[financial_analyst, market_analyst, risk_analyst],
     aggregator_agent=aggregator,
 )
 
-# Run the swarm
-recommendation = moa_swarm.run("Should we invest in NVIDIA stock right now?")
+# Run the solynia
+recommendation = moa_solynia.run("Should we invest in NVIDIA stock right now?")
 print(recommendation)
 ```
 
@@ -431,7 +375,7 @@ print(recommendation)
 `GroupChat` creates a conversational environment where multiple agents can interact, discuss, and collaboratively solve a problem. You can define the speaking order or let it be determined dynamically. This architecture is ideal for tasks that benefit from debate and multi-perspective reasoning, such as contract negotiation, brainstorming, or complex decision-making.
 
 ```python
-from swarms import Agent, GroupChat
+from solynias import Agent, GroupChat
 
 # Define agents for a debate
 tech_optimist = Agent(agent_name="TechOptimist", system_prompt="Argue for the benefits of AI in society.", model_name="gpt-4o-mini")
@@ -455,12 +399,12 @@ for message in conversation_history:
 
 ----
 
-### HierarchicalSwarm
+### Hierarchicalsolynia
 
-`HierarchicalSwarm` implements a director-worker pattern where a central director agent creates comprehensive plans and distributes specific tasks to specialized worker agents. The director evaluates results and can issue new orders in feedback loops, making it ideal for complex project management and team coordination scenarios.
+`Hierarchicalsolynia` implements a director-worker pattern where a central director agent creates comprehensive plans and distributes specific tasks to specialized worker agents. The director evaluates results and can issue new orders in feedback loops, making it ideal for complex project management and team coordination scenarios.
 
 ```python
-from swarms import Agent, HierarchicalSwarm
+from solynias import Agent, Hierarchicalsolynia
 
 # Define specialized worker agents
 content_strategist = Agent(
@@ -487,17 +431,17 @@ brand_strategist = Agent(
     model_name="gpt-4o-mini"
 )
 
-# Create the hierarchical swarm with a director
-marketing_swarm = HierarchicalSwarm(
-    name="Marketing-Team-Swarm",
+# Create the hierarchical solynia with a director
+marketing_solynia = Hierarchicalsolynia(
+    name="Marketing-Team-solynia",
     description="A comprehensive marketing team with specialized agents coordinated by a director",
     agents=[content_strategist, creative_director, seo_specialist, brand_strategist],
     max_loops=2,  # Allow for feedback and refinement
     verbose=True
 )
 
-# Run the swarm on a complex marketing challenge
-result = marketing_swarm.run(
+# Run the solynia on a complex marketing challenge
+result = marketing_solynia.run(
     "Develop a comprehensive marketing strategy for a new SaaS product launch. "
     "The product is a project management tool targeting small to medium businesses. "
     "Coordinate the team to create content strategy, creative campaigns, SEO optimization, "
@@ -507,7 +451,7 @@ result = marketing_swarm.run(
 print(result)
 ```
 
-The `HierarchicalSwarm` excels at:
+The `Hierarchicalsolynia` excels at:
 - **Complex Project Management**: Breaking down large tasks into specialized subtasks
 - **Team Coordination**: Ensuring all agents work toward unified goals
 - **Quality Control**: Director provides feedback and refinement loops
@@ -515,17 +459,17 @@ The `HierarchicalSwarm` excels at:
 
 ---
 
-### HeavySwarm
+### Heavysolynia
 
-`HeavySwarm` implements a sophisticated 5-phase workflow inspired by X.AI's Grok heavy implementation. It uses specialized agents (Research, Analysis, Alternatives, Verification) to provide comprehensive task analysis through intelligent question generation, parallel execution, and synthesis. This architecture excels at complex research and analysis tasks requiring thorough investigation and multiple perspectives.
+`Heavysolynia` implements a sophisticated 5-phase workflow inspired by X.AI's Grok heavy implementation. It uses specialized agents (Research, Analysis, Alternatives, Verification) to provide comprehensive task analysis through intelligent question generation, parallel execution, and synthesis. This architecture excels at complex research and analysis tasks requiring thorough investigation and multiple perspectives.
 
 ```python
-from swarms import HeavySwarm
+from solynias import Heavysolynia
 
-# Pip install swarms-tools
-from swarms_tools import exa_search
+# Pip install solynias-tools
+from solynias_tools import exa_search
 
-swarm = HeavySwarm(
+solynia = Heavysolynia(
     name="Gold ETF Research Team",
     description="A team of agents that research the best gold ETFs",
     worker_model_name="claude-sonnet-4-20250514",
@@ -544,12 +488,12 @@ prompt = (
     "in a clear, structured format suitable for investors. Scrape the data from the web. "
 )
 
-out = swarm.run(prompt)
+out = solynia.run(prompt)
 print(out)
 
 ```
 
-The `HeavySwarm` provides:
+The `Heavysolynia` provides:
 
 - **5-Phase Analysis**: Question generation, research, analysis, alternatives, and verification
 
@@ -561,16 +505,15 @@ The `HeavySwarm` provides:
 
 - **Structured Output**: Well-organized and actionable results
 
-This architecture is perfect for financial analysis, strategic planning, research reports, and any task requiring deep, multi-faceted analysis. [Learn more about HeavySwarm](https://docs.swarms.world/en/latest/swarms/structs/heavy_swarm/)
-
+This architecture is perfect for financial analysis, strategic planning, research reports, and any task requiring deep, multi-faceted analysis.
 ---
 
 ### Social Algorithms
 
-**Social Algorithms** provide a flexible framework for defining custom communication patterns between agents. You can upload any arbitrary social algorithm as a callable that defines the sequence of communication, enabling agents to talk to each other in sophisticated ways. [Learn more about Social Algorithms](https://docs.swarms.world/en/latest/swarms/structs/social_algorithms/)
+**Social Algorithms** provide a flexible framework for defining custom communication patterns between agents. You can upload any arbitrary social algorithm as a callable that defines the sequence of communication, enabling agents to talk to each other in sophisticated ways.
 
 ```python
-from swarms import Agent, SocialAlgorithms
+from solynias import Agent, SocialAlgorithms
 
 # Define a custom social algorithm
 def research_analysis_synthesis_algorithm(agents, task, **kwargs):
@@ -625,11 +568,11 @@ Perfect for implementing complex multi-agent workflows, collaborative problem-so
 
 ### Agent Orchestration Protocol (AOP)
 
-The **Agent Orchestration Protocol (AOP)** is a powerful framework for deploying and managing agents as distributed services. AOP enables agents to be discovered, managed, and executed through a standardized protocol, making it perfect for building scalable multi-agent systems. [Learn more about AOP](https://docs.swarms.world/en/latest/swarms/structs/aop/)
+The **Agent Orchestration Protocol (AOP)** is a powerful framework for deploying and managing agents as distributed services. AOP enables agents to be discovered, managed, and executed through a standardized protocol, making it perfect for building scalable multi-agent systems.
 
 ```python
-from swarms import Agent
-from swarms.structs.aop import AOP
+from solynias import Agent
+from solynias.structs.aop import AOP
 
 # Create specialized agents
 research_agent = Agent(
@@ -683,14 +626,7 @@ print("Registered agents:", deployer.list_agents())
 deployer.run()
 ```
 
-Perfect for deploying large scale multi-agent systems. [Read the complete AOP documentation](https://docs.swarms.world/en/latest/swarms/structs/aop/)
-
 ---
-
-## Documentation
-
-Documentation is located here at: [docs.swarms.world](https://docs.swarms.world)
-
 
 ---
 
@@ -705,9 +641,9 @@ Explore the `examples/` directory for x402-focused demos and quickstarts include
 
 ---
 
-## Contribute to x402Swarms
+## Contribute to x402solynias
 
-This fork is maintained by the x402Swarms team. If you'd like to contribute, please open issues or pull requests against this repository. See `CONTRIBUTING.md` for contribution guidelines adapted for this fork.
+This fork is maintained by the x402solynias team. If you'd like to contribute, please open issues or pull requests against this repository. See `CONTRIBUTING.md` for contribution guidelines adapted for this fork.
 
 ### How to Get Started
 
@@ -719,15 +655,11 @@ This fork is maintained by the x402Swarms team. If you'd like to contribute, ple
 
 ## Connect With Us
 
-We maintain a single official X (Twitter) account for this fork:
+We maintain a single official X (Twitter) account:
 
-- X: https://x.com/x402swarms
+- X: https://x.com/solynia
 
-(Links to the original project's socials and documentation have been removed from this fork.)
 
----
 
-## License
 
-This fork inherits the original project's license. See `LICENSE` for details.
 
