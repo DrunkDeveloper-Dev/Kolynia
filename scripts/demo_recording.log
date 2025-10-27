@@ -1,0 +1,98 @@
+FACILITATOR_URL: http://127.0.0.1:8000
+X402_PRIVATE_KEY present: True
+Creating payment session via agent...
+{
+  "create": {
+    "status_code": 200,
+    "payload": {
+      "id": "tx_3e38696bd667",
+      "status": "success",
+      "received": {
+        "amount": 0.01,
+        "currency": "USD",
+        "metadata": {
+          "memo": "test-payment"
+        },
+        "from_address": "0xFCAd0B19bB29D4674531d6f115237E16AfCE377c",
+        "network": null
+      }
+    },
+    "headers": {
+      "date": "Sun, 26 Oct 2025 14:42:19 GMT",
+      "server": "uvicorn",
+      "content-length": "197",
+      "content-type": "application/json",
+      "x-payment-response": "tx_3e38696bd667"
+    }
+  },
+  "verify": {
+    "status_code": 200,
+    "payload": {
+      "ok": true,
+      "message": "verified",
+      "received": {
+        "amount": 0.01,
+        "currency": "USD",
+        "metadata": {
+          "memo": "test-payment"
+        },
+        "from_address": "0xFCAd0B19bB29D4674531d6f115237E16AfCE377c",
+        "network": null
+      }
+    },
+    "headers": {
+      "date": "Sun, 26 Oct 2025 14:42:19 GMT",
+      "server": "uvicorn",
+      "content-length": "186",
+      "content-type": "application/json"
+    }
+  },
+  "settle": {
+    "status_code": 200,
+    "payload": {
+      "id": "tx_4a50ce609780",
+      "status": "settled",
+      "received": {
+        "amount": 0.01,
+        "currency": "USD",
+        "metadata": {
+          "memo": "test-payment"
+        },
+        "from_address": "0xFCAd0B19bB29D4674531d6f115237E16AfCE377c",
+        "network": null
+      }
+    },
+    "headers": {
+      "date": "Sun, 26 Oct 2025 14:42:19 GMT",
+      "server": "uvicorn",
+      "content-length": "197",
+      "content-type": "application/json",
+      "x-payment-response": "tx_4a50ce609780"
+    }
+  }
+}
+Calling payment tool directly...
+{
+  "status_code": 200,
+  "body": {
+    "id": "tx_a50944ca91e4",
+    "status": "success",
+    "received": {
+      "amount": 0.01,
+      "currency": "USD",
+      "metadata": {
+        "memo": "tool-payment"
+      },
+      "from_address": "0xFCAd0B19bB29D4674531d6f115237E16AfCE377c",
+      "network": null
+    }
+  },
+  "headers": {
+    "date": "Sun, 26 Oct 2025 14:42:19 GMT",
+    "server": "uvicorn",
+    "content-length": "197",
+    "content-type": "application/json",
+    "x-payment-response": "tx_a50944ca91e4"
+  }
+}
+

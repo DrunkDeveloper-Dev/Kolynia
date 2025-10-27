@@ -1,0 +1,257 @@
+{
+  "facilitator": "https://facilitator.payai.network",
+  "list": {
+    "status_code": 308,
+    "text": "Permanent Redirect. Redirecting to /discovery/resources",
+    "headers": {
+      "date": "Sun, 26 Oct 2025 17:41:31 GMT",
+      "content-type": "text/plain; charset=utf-8",
+      "content-length": "55",
+      "connection": "keep-alive",
+      "server": "cloudflare",
+      "x-powered-by": "Express",
+      "location": "/discovery/resources",
+      "vary": "Accept",
+      "strict-transport-security": "max-age=31536000",
+      "cf-cache-status": "DYNAMIC",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=BSy%2BSt06Ovck4VoXOMuRcNdORdDKAY1MfcjhgwX6RpqZIEDN6fX1TbjDvbcRM4FENh5JkiHkK1ivdl5isnMhgcgoEV5yA6z4VYNuI%2FoZcF80o7KKUgiTy2Y%3D\"}]}",
+      "cf-ray": "994bbeba9e8c5837-MXP",
+      "alt-svc": "h3=\":443\"; ma=86400"
+    }
+  },
+  "create_tests": [
+    {
+      "status_code": 404,
+      "text": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot POST /create_payment</pre>\n</body>\n</html>\n",
+      "headers": {
+        "date": "Sun, 26 Oct 2025 17:41:32 GMT",
+        "content-type": "text/html; charset=utf-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "server": "cloudflare",
+        "x-powered-by": "Express",
+        "content-security-policy": "default-src 'none'",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=jHM6W1NRq5qRCu9lQzQfMKAr%2FtQg2XnDvq4oj0904u9TcgoTM%2FHXdVQqs10cEzykz3ce0pKh7sedsnGxJN3tFjyBFuij0n3y%2Bi6Wlwx5S6Jt5T5vClNSNv8%3D\"}]}",
+        "cf-cache-status": "DYNAMIC",
+        "vary": "accept-encoding",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "content-encoding": "gzip",
+        "cf-ray": "994bbebb1f7e5837-MXP",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      },
+      "variant": "simple_number"
+    },
+    {
+      "status_code": 404,
+      "text": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot POST /create_payment</pre>\n</body>\n</html>\n",
+      "headers": {
+        "date": "Sun, 26 Oct 2025 17:41:32 GMT",
+        "content-type": "text/html; charset=utf-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "server": "cloudflare",
+        "x-powered-by": "Express",
+        "content-security-policy": "default-src 'none'",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=sqCwMe4Wxz778oT4kYS6Th%2BnuRxFPRzwp3nX%2B%2F2I2MuiO94UoiChTkOoDx%2BJodG%2FwbG%2BYZpVGF8qBhrDbhZE4LdRviOqEvzzLVRb%2BfodlksCShq7%2Bsdi3mA%3D\"}]}",
+        "cf-cache-status": "DYNAMIC",
+        "vary": "accept-encoding",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "content-encoding": "gzip",
+        "cf-ray": "994bbebb78165837-MXP",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      },
+      "variant": "amount_string"
+    },
+    {
+      "status_code": 404,
+      "text": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot POST /create_payment</pre>\n</body>\n</html>\n",
+      "headers": {
+        "date": "Sun, 26 Oct 2025 17:41:32 GMT",
+        "content-type": "text/html; charset=utf-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "server": "cloudflare",
+        "x-powered-by": "Express",
+        "content-security-policy": "default-src 'none'",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=q3ZN88ojOUvnbUvFJJwBNWAcii4GKZYIcSpTO8JxU8RyFrQpWjo3FuEthtKeWaqAeubsWwyDqS4SfgjzI76WHe0F0wvW%2F9HkameKafDsa8ilPMXasGqm%2B%2BU%3D\"}]}",
+        "cf-cache-status": "DYNAMIC",
+        "vary": "accept-encoding",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "content-encoding": "gzip",
+        "cf-ray": "994bbebbc8bc5837-MXP",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      },
+      "variant": "with_metadata_and_from"
+    },
+    {
+      "status_code": 404,
+      "text": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot POST /create_payment</pre>\n</body>\n</html>\n",
+      "headers": {
+        "date": "Sun, 26 Oct 2025 17:41:32 GMT",
+        "content-type": "text/html; charset=utf-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "server": "cloudflare",
+        "x-powered-by": "Express",
+        "content-security-policy": "default-src 'none'",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=zDfjSAMwNqw0lv1ItWIulEcFSy2Tg%2FkPeMek0HNPRytLT67RXUmjgFt65aG5CFp39Z5a6jJ4iv%2B6NvVyQ8HMZAYhPrNOrG97ivaL0d2F8hzNZJ8FfNmex%2B0%3D\"}]}",
+        "cf-cache-status": "DYNAMIC",
+        "vary": "accept-encoding",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "content-encoding": "gzip",
+        "cf-ray": "994bbebc29805837-MXP",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      },
+      "variant": "token_amount_object"
+    },
+    {
+      "status_code": 404,
+      "text": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot POST /create_payment</pre>\n</body>\n</html>\n",
+      "headers": {
+        "date": "Sun, 26 Oct 2025 17:41:32 GMT",
+        "content-type": "text/html; charset=utf-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "server": "cloudflare",
+        "x-powered-by": "Express",
+        "content-security-policy": "default-src 'none'",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=GxC%2Fwak92SVgnFq4NSSsMmTuTfHMDoco3tzyzUFZY69mT02HYvqtqxR8n81lDkFJzU1Rg%2BF578nKyO4QCBnVG9g4l3BN4FdxmvRsJGtbC3KL2hHJRPpOcoU%3D\"}]}",
+        "cf-cache-status": "DYNAMIC",
+        "vary": "accept-encoding",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "content-encoding": "gzip",
+        "cf-ray": "994bbebc7a395837-MXP",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      },
+      "variant": "eip712_placeholder"
+    }
+  ],
+  "verify_tests": [
+    {
+      "status_code": 400,
+      "body": {
+        "error": "Invalid request"
+      },
+      "text": "{\"error\":\"Invalid request\"}",
+      "headers": {
+        "date": "Sun, 26 Oct 2025 17:41:32 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "27",
+        "connection": "keep-alive",
+        "server": "cloudflare",
+        "x-powered-by": "Express",
+        "etag": "W/\"1b-m8BwYp5TxkVHAvpGgKPUwC0p6ck\"",
+        "strict-transport-security": "max-age=31536000",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=aLnvUniXlNg93MM4bGE1v4kkbtxA2YH0yCbJqzNZ6yVeSWfUzBwB14%2BBDst2sszX3FYA2FfQnGba%2FQAyJn%2FkRATMFY3iWzuSKLi6E1G8Hn%2FNuX9530H5EX4%3D\"}]}",
+        "cf-ray": "994bbebccab65837-MXP",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      },
+      "variant": "simple_number"
+    },
+    {
+      "status_code": 400,
+      "body": {
+        "error": "Invalid request"
+      },
+      "text": "{\"error\":\"Invalid request\"}",
+      "headers": {
+        "date": "Sun, 26 Oct 2025 17:41:32 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "27",
+        "connection": "keep-alive",
+        "server": "cloudflare",
+        "x-powered-by": "Express",
+        "etag": "W/\"1b-m8BwYp5TxkVHAvpGgKPUwC0p6ck\"",
+        "strict-transport-security": "max-age=31536000",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=9HaCCQmauA%2BAsoozO1iv3NJHuCWkxEkM2kzk1DQlVJbglhjsdHH45HsmrDsh9BU351oJJYSg%2B6AszYgRMo0yFvr60i1BYeerx8MfmdNL16enq9I8vDRmCY8%3D\"}]}",
+        "cf-ray": "994bbebd1b4c5837-MXP",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      },
+      "variant": "amount_string"
+    },
+    {
+      "status_code": 400,
+      "body": {
+        "error": "Invalid request"
+      },
+      "text": "{\"error\":\"Invalid request\"}",
+      "headers": {
+        "date": "Sun, 26 Oct 2025 17:41:32 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "27",
+        "connection": "keep-alive",
+        "server": "cloudflare",
+        "x-powered-by": "Express",
+        "etag": "W/\"1b-m8BwYp5TxkVHAvpGgKPUwC0p6ck\"",
+        "strict-transport-security": "max-age=31536000",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=s95AJFUd80BIziQ3qMHnuQpCfnFzX91l2YTd0HChoMlUbDNmflxM%2BfC5Rxl4TP6kznwZ%2FT4uXkJqjX%2FVxgqb%2FlW9StW7gAUtnutzWxKsXv%2FvmSFKmLeGNIQ%3D\"}]}",
+        "cf-ray": "994bbebd7be35837-MXP",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      },
+      "variant": "with_metadata_and_from"
+    },
+    {
+      "status_code": 400,
+      "body": {
+        "error": "Invalid request"
+      },
+      "text": "{\"error\":\"Invalid request\"}",
+      "headers": {
+        "date": "Sun, 26 Oct 2025 17:41:32 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "27",
+        "connection": "keep-alive",
+        "server": "cloudflare",
+        "x-powered-by": "Express",
+        "etag": "W/\"1b-m8BwYp5TxkVHAvpGgKPUwC0p6ck\"",
+        "strict-transport-security": "max-age=31536000",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=AGazeHIDz6bzFFvuFelFZgngNr4MtyGyuE%2FUFy%2BctWuHKd0Atr7Ez99KIcrWy1gMXpgf64pjFxOoME5TCBrZeax6FaM55zUnWcpRvYh8sBWi2%2F0FKHe14zM%3D\"}]}",
+        "cf-ray": "994bbebdcc695837-MXP",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      },
+      "variant": "token_amount_object"
+    },
+    {
+      "status_code": 400,
+      "body": {
+        "error": "Invalid request"
+      },
+      "text": "{\"error\":\"Invalid request\"}",
+      "headers": {
+        "date": "Sun, 26 Oct 2025 17:41:32 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "27",
+        "connection": "keep-alive",
+        "server": "cloudflare",
+        "x-powered-by": "Express",
+        "etag": "W/\"1b-m8BwYp5TxkVHAvpGgKPUwC0p6ck\"",
+        "strict-transport-security": "max-age=31536000",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2BYgnMWRKJr%2BAZZDG%2Fglf5NxzJ%2FZNy8ODI6O%2FhQzk39u1AIQZ4XHDUOzUKLVE957HruvvXbHf1Lrcez9Jp6f3ktJu79NpddF5zKP0kjgHpLeNk1VQIp007AE%3D\"}]}",
+        "cf-ray": "994bbebe1d135837-MXP",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      },
+      "variant": "eip712_placeholder"
+    }
+  ]
+}

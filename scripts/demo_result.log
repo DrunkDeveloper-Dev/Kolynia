@@ -1,0 +1,51 @@
+FACILITATOR_URL: http://127.0.0.1:8000
+X402_PRIVATE_KEY present: True
+Creating payment session via agent...
+{
+  "status_code": 200,
+  "payload": {
+    "id": "tx_08da0efc2c9f",
+    "status": "success",
+    "received": {
+      "amount": 0.01,
+      "currency": "USD",
+      "metadata": {
+        "memo": "test-payment"
+      },
+      "from_address": null,
+      "network": null
+    }
+  },
+  "headers": {
+    "date": "Sun, 26 Oct 2025 13:29:36 GMT",
+    "server": "uvicorn",
+    "content-length": "157",
+    "content-type": "application/json",
+    "x-payment-response": "tx_08da0efc2c9f"
+  }
+}
+Calling payment tool directly...
+{
+  "status_code": 200,
+  "body": {
+    "id": "tx_17fa90f1cdb8",
+    "status": "success",
+    "received": {
+      "amount": 0.01,
+      "currency": "USD",
+      "metadata": {
+        "memo": "tool-payment"
+      },
+      "from_address": null,
+      "network": null
+    }
+  },
+  "headers": {
+    "date": "Sun, 26 Oct 2025 13:29:36 GMT",
+    "server": "uvicorn",
+    "content-length": "157",
+    "content-type": "application/json",
+    "x-payment-response": "tx_17fa90f1cdb8"
+  }
+}
+

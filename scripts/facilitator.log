@@ -1,0 +1,44 @@
+
+--- Starting uvicorn: scripts.mock_facilitator:app host=127.0.0.1 port=8000 at Sun Oct 26 15:08:22 2025 ---
+INFO:     Started server process [12496]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:52991 - "GET /list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60530 - "GET /list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60530 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:64510 - "POST /create_payment HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64510 - "POST /verify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64510 - "POST /settle HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64511 - "POST /create_payment HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63358 - "GET /list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63395 - "POST /create_payment HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63395 - "POST /verify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63395 - "POST /settle HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63396 - "POST /create_payment HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65275 - "GET /list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65315 - "POST /create_payment HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65315 - "POST /verify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65315 - "POST /settle HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65316 - "POST /create_payment HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53533 - "GET /list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53570 - "GET /list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53570 - "POST /create_payment HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53570 - "POST /verify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53570 - "POST /settle HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53571 - "GET /list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53571 - "POST /create_payment HTTP/1.1" 200 OK
+
+--- Starting uvicorn: scripts.mock_facilitator:app host=127.0.0.1 port=8000 at Sun Oct 26 15:56:13 2025 ---
+INFO:     Started server process [20400]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:58305 - "GET /list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50327 - "GET /list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65429 - "GET /list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65429 - "POST /create_payment HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65429 - "POST /verify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65429 - "POST /settle HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65430 - "GET /list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65430 - "POST /create_payment HTTP/1.1" 200 OK
